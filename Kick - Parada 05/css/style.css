@@ -1,0 +1,96 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: rgb(255, 183, 183);
+    width: 40%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    background-color: rgb(255, 213, 213);
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 183, 183);
+}
+
+article {
+    background-color: white;
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+}
+
+ol {
+    padding: 0px;
+    margin: 20px;
+}
+
+ol li span {
+    float: right;
+}
+
+ol li {
+    border-bottom: 1px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+h2,
+p {
+    margin-left: 20px;
+    margin-right: 35px;
+}
+
+section {
+    text-align: center;
+    padding: 10px;
+}
+
+#btt {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 158, 158);
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#btt:hover {
+    transition: 0.5s;
+    background-color: rgb(255, 183, 183);
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(253, 158, 158);
+    width: 40%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
